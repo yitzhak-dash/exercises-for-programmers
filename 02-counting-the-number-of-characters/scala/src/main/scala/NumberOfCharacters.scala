@@ -1,4 +1,7 @@
 object NumberOfCharacters extends App {
-  val input = scala.io.StdIn.readLine("What is the input string? ")
+  var input = ""
+  while (input.length() == 0){
+    input = scala.io.StdIn.readLine("What is the input string? ")
+  }
   println(s"$input has ${input.length()} characters.")
 }
