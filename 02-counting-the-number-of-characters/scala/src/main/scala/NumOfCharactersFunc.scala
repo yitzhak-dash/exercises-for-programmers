@@ -1,4 +1,4 @@
-object NumOfCharactersFunc extends App{
+object NumOfCharactersFunc extends App {
   def whileLoop(cond: => Boolean)(block: => Unit): Unit =
     if (cond) {
       block
